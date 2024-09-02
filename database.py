@@ -3,7 +3,7 @@ from pymongo.mongo_client import MongoClient
 from pymongo.server_api import ServerApi
 
 
-uri = "mongodb+srv://marabk03:SR2BvU9KQrPD9Pju@discordbot.eihn4ge.mongodb.net/?retryWrites=true&w=majority"
+uri = ""
 client = MongoClient(uri)
 collection = client.item_prices
 
